@@ -7,6 +7,6 @@ describe('Test one', () => {
     cy.get("[type=submit]").click()
     cy.get("[title='Assign Leave']").first().click()
     cy.get(".oxd-autocomplete-text-input input")
-cy.contains("button","Assign")
+    cy.contains("button","Assign")
   })
 })
